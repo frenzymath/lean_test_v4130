@@ -18,7 +18,3 @@ require REPL from git
 
 require interactive from git
   "git@github.com:reaslab/interactive.git" @ "v4.13.0"
-
-@[default_target]
-lean_exe "lean_test_v4130" where
-  root := `Main
