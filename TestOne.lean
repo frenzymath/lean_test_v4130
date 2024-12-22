@@ -1,2 +1,3 @@
---obvousily card (Π _: Fin n,G) equal to  ∏ _ : Fin n, (card G)= (card G) ^{ n }
-example{G:Type*}[Fintype G][Group G] (n:ℕ) :  Fintype.card (Π _: Fin n,G) = (Fintype.card G)^n := sorry
+/-Example_5213B-/
+/-In an integral domain $R$, if $a\in R$ and natural number $n\in\mathbb N$ satisfy $a^n=0$, then $a=0$.-/
+example {R : Type*} [Ring R] [NoZeroDivisors R] (a : R) (n : ℕ) (eq : a ^ n = 0) : a = 0 := sorry
