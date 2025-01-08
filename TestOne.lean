@@ -1,3 +1,1 @@
-/-Example_5213B-/
-/-In an integral domain $R$, if $a\in R$ and natural number $n\in\mathbb N$ satisfy $a^n=0$, then $a=0$.-/
-example {R : Type*} [Ring R] [NoZeroDivisors R] (a : R) (n : ℕ) (eq : a ^ n = 0) : a = 0 := sorry
+example {G H: Type*} [Finite H] [Finite G][Group G] [Group H] (h: (Nat.card H).gcd (Nat.card G) =  1)(f : G →* H)  : ∀ p : G , f p = 1:= sorry
