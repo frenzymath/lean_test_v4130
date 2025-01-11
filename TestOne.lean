@@ -1,1 +1,1 @@
-example {G H: Type*} [Finite H] [Finite G][Group G] [Group H] (h: (Nat.card H).gcd (Nat.card G) =  1)(f : G →* H)  : ∀ p : G , f p = 1:= sorry
+example (m n : ℤ) : (AddSubgroup.zmultiples m : Set ℤ) ≤ AddSubgroup.zmultiples n ↔ n ∣ m := sorry
