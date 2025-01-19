@@ -1,1 +1,0 @@
-example (m n : ℤ) : (AddSubgroup.zmultiples m : Set ℤ) ≤ AddSubgroup.zmultiples n ↔ n ∣ m := sorry
